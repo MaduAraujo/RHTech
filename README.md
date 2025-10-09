@@ -1,22 +1,22 @@
 # RHTech
 
-## Sumário 
+## Sumário
 
-  - [Visão Geral](#visão-geral)
-  - [Layout](#layout)
-  - [Principais Funcionalidades](#principais-funcionalidades)
-      - [1. Arquivos](#1.arquivos)
-      - [2. Processo de Admissão](#2.processo-de-admissão)
-          - [2.1. Checklist Documental](#2.1.checklist-documental)
-      - [3. Processo de Demissão](#3.processo-de-demissão)
-          - [3.1. Dados da Rescisão](#3.1.dados-da-rescisão)
-          - [3.2. Checklist de Demissão](#3.2.checklist-de-demissão)
-      - [4. Dashboard](#4.dashboard)
-      - [5. Configurações](#5.configurações)
-          - [5.1. Opções de Alternância](#5.1.opções-de-alternância)
-          - [5.2. Opções de Navegação](#5.2.opções-de-navegação)
-  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-  - [Linguagem de Programação Utilizada](#linguaguem-de-programação)
+- [Visão Geral](#visão-geral)
+- [Layout](#layout)
+- [Principais Funcionalidades](#principais-funcionalidades)
+  - [1. Arquivos](#1-arquivos)
+  - [2. Processo de Admissão](#2-processo-de-admissão)
+    - [2.1. Checklist Documental](#21-checklist-documental)
+  - [3. Processo de Demissão](#3-processo-de-demissão)
+    - [3.1. Dados da Rescisão](#31-dados-da-rescisão)
+    - [3.2. Checklist de Demissão](#32-checklist-de-demissão)
+  - [4. Dashboard](#4-dashboard)
+  - [5. Configurações](#5-configurações)
+    - [5.1. Opções de Alternância](#51-opções-de-alternância)
+    - [5.2. Opções de Navegação](#52-opções-de-navegação)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Linguagem de Programação Utilizada](#linguagem-de-programação-utilizada)
   
 ## Visão Geral
 
@@ -27,6 +27,11 @@ documentos sejam coletados e a conformidade legal seja mantida, permitindo que o
 
 ## Layout
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e9f56d49-7d95-4ef5-99a2-e9580005f22b" width="20%" alt="Descrição da Imagem 01">
+  <img src="https://github.com/user-attachments/assets/1a2c05f0-adf5-4c15-93a4-1cc227810fca" width="20%" alt="Descrição da Imagem 02">
+  <img src="https://github.com/user-attachments/assets/918287e9-ea2f-44ff-bf53-93f4ed771f94" width="20%" alt="Descrição da Imagem 03">
+</div>
 
 ## Principais Funcionalidades
 
@@ -129,3 +134,28 @@ Botões que levam o usuário para telas secundárias ou informações adicionais
 ## Linguagem de Programação Utilizada
 
 - JavaScript
+
+## Executando Localmente
+
+- Requisito: **Node.js**
+
+---
+
+1. **Clone o repositório:**
+   ```bash
+   $ git clone https://github.com/MaduAraujo/RHTech.git
+
+2. **Navegue até o diretório do projeto:**
+   ```bash
+   cd RHTech
+
+3. **Instale as dependências:**
+   ```bash
+   npm install
+
+4. **Inicie o aplicativo:**
+   ```bash
+   npx expo start
+
+5. Teste no dispositivo móvel
+- Use o **Expo Go** para escanear o QR code e testar o aplicativo em seu dispositivo móvel.
