@@ -2,21 +2,21 @@
 
 ## Sumário 
 
-  - [Visão Geral](##visão-geral)
-  - [Layout](##layout)
-  - [Principais Funcionalidades](##principais-funcionalidades)
-      - [1. Arquivos](###1.arquivos)
-      - [2. Processo de Admissão](###2.processo-de-admissão)
-          - [2.1. Checklist Documental](####2.1.checklist-documental)
-      - [3. Processo de Demissão](###3.processo-de-demissão)
-          - [3.1. Dados da Rescisão](####3.1.dados-da-rescisão)
-          - [3.2. Checklist de Demissão](####3.2.checklist-de-demissão)
-      - [4. Dashboard](###4.dashboard)
-      - [5. Configurações](###5.configurações)
-          - [5.1. Opções de Alternância](####5.1.opções-de-alternância)
-          - [5.2. Opções de Navegação](####5.2.opções-de-navegação)
-  - [Tecnologias Utilizadas](##tecnologias-utilizadas)
-  - [Linguagem de Programação Utilizada](##linguaguem-de-programação)
+  - [Visão Geral](#visão-geral)
+  - [Layout](#layout)
+  - [Principais Funcionalidades](#principais-funcionalidades)
+      - [1. Arquivos](#1.arquivos)
+      - [2. Processo de Admissão](#2.processo-de-admissão)
+          - [2.1. Checklist Documental](#2.1.checklist-documental)
+      - [3. Processo de Demissão](#3.processo-de-demissão)
+          - [3.1. Dados da Rescisão](#3.1.dados-da-rescisão)
+          - [3.2. Checklist de Demissão](#3.2.checklist-de-demissão)
+      - [4. Dashboard](#4.dashboard)
+      - [5. Configurações](#5.configurações)
+          - [5.1. Opções de Alternância](#5.1.opções-de-alternância)
+          - [5.2. Opções de Navegação](#5.2.opções-de-navegação)
+  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [Linguagem de Programação Utilizada](#linguaguem-de-programação)
   
 ## Visão Geral
 
