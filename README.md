@@ -16,6 +16,7 @@
     - [5.2. Opções de Navegação](#52-opções-de-navegação)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Linguagem de Programação Utilizada](#linguagem-de-programação-utilizada)
+- [Executando no Expo Snack](#executando-no-expo-snack)
 - [Executando Localmente](#executando-localmente)
   
 ## Visão Geral
@@ -134,7 +135,7 @@ Botões que levam o usuário para telas secundárias ou informações adicionais
 
 - JavaScript
 
-## Executar no Expo Snack
+## Executando no Expo Snack
 
 **Pré Requisito:**
 * O aplicativo **Expo Go** deve estar instalado no seu dispositivo móvel.
