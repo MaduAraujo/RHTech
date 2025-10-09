@@ -17,6 +17,7 @@
     - [5.2. Opções de Navegação](#52-opções-de-navegação)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Linguagem de Programação Utilizada](#linguagem-de-programação-utilizada)
+- [Executando Localmente](#executando-localmente)
   
 ## Visão Geral
 
