@@ -127,7 +127,7 @@ const DashboardScreen = () => {
                 )}
             </View>
 
-            <Text style={styles.subtitle}>Próximos Processos</Text>
+            <Text style={styles.subtitle}>Processos Recentes</Text>
             {recentProcesses.length > 0 ? (
                 recentProcesses.map((process) => (
                     <ProcessCard
