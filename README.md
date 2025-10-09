@@ -34,6 +34,12 @@ documentos sejam coletados e a conformidade legal seja mantida, permitindo que o
   <img src="https://github.com/user-attachments/assets/918287e9-ea2f-44ff-bf53-93f4ed771f94" width="20%" alt="Descrição da Imagem 03">
 </div>
 
+## Aplicativo
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/84dc27ea-0f26-4063-bf65-9608ac8b1470" width="50%">
+</p>
+
 ## Principais Funcionalidades
 
 ### 1. Arquivos
