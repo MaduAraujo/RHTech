@@ -134,11 +134,27 @@ Botões que levam o usuário para telas secundárias ou informações adicionais
 
 - JavaScript
 
+## Executar no Expo Snack
+
+**Pré Requisito:**
+* O aplicativo **Expo Go** deve estar instalado no seu dispositivo móvel.
+
+**Instruções:**
+
+1. **Acesso o link no seu navegador:**
+```
+https://snack.expo.dev/@eduarda.araujo/rhtech
+```
+2. Selecione a opção My Device (Meu Dispositivo)
+
+3. Use o aplicativo Expo Go para escanear o QRCode exibido. O aplicativo será carregado automaticamente.
+
 ## Executando Localmente
 
-- Requisito: **Node.js**
+**Pré Requisito:**
+* **Node.js**
 
----
+**Instruções:**
 
 1. **Clone o repositório:**
    ```bash
@@ -157,4 +173,4 @@ Botões que levam o usuário para telas secundárias ou informações adicionais
    npx expo start
 
 5. Teste no dispositivo móvel
-- Use o **Expo Go** para escanear o QR code e testar o aplicativo em seu dispositivo móvel.
+- Use o **Expo Go** para escanear o QRCode e testar o aplicativo em seu dispositivo móvel.
