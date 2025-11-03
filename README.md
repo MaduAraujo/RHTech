@@ -109,7 +109,7 @@ Trata-se das especificações de o que o sistema deve fazer.
 - Obter Status de Concluído
 - Obter Status de Pendência
 
-### 6. Requisitos Não funcionais
+### 6. Requisitos Não Funcionais
 
 Trata-se das qualidades e restrições técnicas que o sistema deve cumprir.
 
