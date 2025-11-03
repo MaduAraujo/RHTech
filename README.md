@@ -3,8 +3,16 @@
 ## Sumário
 
 - [Visão Geral](#visão-geral)
-- [Layout](#layout)
-- [Principais Funcionalidades](#principais-funcionalidades)
+- [Metodologia](#metodologia)
+  - [1. Modelo de Desenvolvimento: Cascata](#1-modelo-de-desenvolvimento-cascata)
+  - [2. Modelagem: Diagrama de Caso de Uso](#2-modelagem-diagrama-de-caso-de-uso)
+  - [3. Estrutura: Diagrama de Classes](#3-estrutura-diagrama-de-classes)
+  - [4. Arquitetura: Cliente-Servidor](#4-arquitetura-cliente-servidor)
+  - [5. Requisitos Funcionais](#5-requisitos-funcionais)
+  - [6. Requisitos Não Funcionais](#6-requisitos-não-funcionais)
+- [Banco de Dados](#banco-de-dados)
+- [Aplicação Mobile](#aplicação-mobile)
+- [Principais Funcionalidades do App](#principais-funcionalidades-do-app)
   - [1. Arquivos](#1-arquivos)
   - [2. Processo de Admissão](#2-processo-de-admissão)
     - [2.1. Checklist Documental](#21-checklist-documental)
@@ -15,32 +23,127 @@
     - [5.1. Opções de Alternância](#51-opções-de-alternância)
     - [5.2. Opções de Navegação](#52-opções-de-navegação)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Linguagem de Programação Utilizada](#linguagem-de-programação-utilizada)
-- [Executando no Expo Snack](#executando-no-expo-snack)
-- [Executando Localmente](#executando-localmente)
+- [Executando o Projeto](#executando-o-projeto)
   
 ## Visão Geral
 
 RHTech é uma aplicação projetada para otimizar o ciclo de vida documental dentro do setor de Recursos Humanos (RH), focando nos processos de Admissão e Demissão.<br>
 
-Nosso objetivo é eliminar a dependência das planilhas digitais e o risco da papelada manual. A RHTech fornece uma plataforma centralizada e intuitiva que garante que todos os 
+O objetivo é eliminar a dependência das planilhas digitais e o risco da papelada manual. A RHTech fornece uma plataforma centralizada e intuitiva que garante que todos os 
 documentos sejam coletados e a conformidade legal seja mantida, permitindo que o time de RH gaste menos tempo com burocracia e mais tempo com estratégia.
 
-## Layout
+## Metodologia
 
+O desenvolvimento do projeto foi estruturado com base nos seguintes modelos, diagramas e requisitos (funcionais e não funcionais) para garantir clareza, organização e controle.
+
+### 1. Modelo de Desenvolvimento: Cascata
+
+Esta escolha se justifica por ser um projeto com requisitos claros e etapas bem definidas.
+
+**Vantagens neste contexto:**
+
+  * Permite uma sequência lógica e linear, desde o levantamento de requisitos até a manutenção quando finalizado.
+  * Facilita o controle do progresso de desenvolvimento.
+ 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e9f56d49-7d95-4ef5-99a2-e9580005f22b" width="20%" alt="Descrição da Imagem 01">
-  <img src="https://github.com/user-attachments/assets/1a2c05f0-adf5-4c15-93a4-1cc227810fca" width="20%" alt="Descrição da Imagem 02">
-  <img src="https://github.com/user-attachments/assets/918287e9-ea2f-44ff-bf53-93f4ed771f94" width="20%" alt="Descrição da Imagem 03">
+  <img src="https://github.com/user-attachments/assets/582131ee-b575-4059-9095-afd314c29a8c" width="70%" alt="Modelo Cascata">
 </div>
 
-## Aplicativo
+### 2. Modelagem: Diagrama de Caso de Uso
 
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/84dc27ea-0f26-4063-bf65-9608ac8b1470" width="50%">
-</p>
+Este diagrama foi fundamental para:
 
-## Principais Funcionalidades
+  * Representar visualmente as funcionalidades do sistema.
+  * Mapear a interação dos usuários (atores) com a aplicação.
+  * Identificar os serviços oferecidos pelo sistema.
+  * Validar o entendimento dos requisitos funcionais e planejar o desenvolvimento.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/69a2f5d5-2084-49b0-adc9-c48a6e2350ce" width="70%" alt="Diagrama de Caso de Uso">
+</div>
+
+### 3. Estrutura: Diagrama de Classes
+
+O **Diagrama de Classes** foi utilizado para representar a estrutura estática do sistema. Ele detalha:
+
+  * As classes que compõem o sistema, com seus respectivos atributos e métodos.
+  * Os relacionamentos e interações entre as classes.
+  * A organização lógica da aplicação, servindo como um "mapa" para o desenvolvimento e facilitando a manutenção futura do código.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/07985a94-955d-42e5-ae1c-595961595fcd" width="70%" alt="Diagrama de Classes">
+</div>
+
+### 4. Arquitetura: Cliente-Servidor
+
+O sistema foi estruturado na arquitetura **Cliente-Servidor**. Neste modelo, o *cliente* (interface do usuário) realiza solicitações, e o *servidor* responde com os dados ou serviços necessários.
+
+**Benefícios desta arquitetura:**
+
+  * **Organização:** Separação clara de responsabilidades (front-end e back-end).
+  * **Manutenção:** Facilita a atualização e correção de bugs em partes isoladas.
+  * **Escalabilidade:** Permite que o sistema cresça conforme a demanda aumenta.
+  * **Segurança:** Centraliza o gerenciamento e a proteção dos dados no servidor.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/76055951-615a-4c5f-b421-0ddd52b9a5ca" width="50%" alt="Arquitetura Cliente-Servidor">
+</div>
+
+### 5. Requisitos Funcionais
+
+Trata-se das especificações de o que o sistema deve fazer. 
+
+- Fazer Login
+- Gerenciar Cadastros
+- Visualizar Funcionários
+- Adicionar Funcionários
+- Desativar Funcionários
+- Atualizar Cadastro Funcionários
+- Registrar Documentação
+- Gerenciar Documentação
+- Visualizar Status de Documentações
+- Gerar Relatórios
+- Gerar Relatórios de Demissões
+- Gerar Relatórios de Admissões
+- Obter Todos os Relatórios
+- Obter Status de Concluído
+- Obter Status de Pendência
+
+### 6. Requisitos Não funcionais
+
+Trata-se das qualidades e restrições técnicas que o sistema deve cumprir.
+
+- Usabilidade: Interface simples e intuitiva, adequada ao uso por equipes de RH
+- Segurança: Acesso restrito apenas a usuários autenticados
+- Disponibilidade: O sistema deve estar acessível de forma contínua, sem interrupções frequentes
+- Desempenho: Consultas e geração de relatórios devem ocorrer com tempo de resposta rápido
+- Confiabilidade: O sistema deve garantir consistência dos dados e evitar duplicações
+- Escalabilidade: O sistema deve suportar o aumento no número de funcionários e documentos sem perda de desempenho
+- Compatibilidade: O sistema deve funcionar em dispositivos IOS e Android
+- Auditabilidade: Permitir rastreabilidade das ações (ex.: quem cadastrou, alterou ou removeu dados)
+
+## Banco de Dados
+
+O projeto utiliza um banco de dados relacional, implementado em **SQL**. O modelo lógico foi desenhado para garantir a integridade e a consistência dos dados, estruturando as entidades e seus relacionamentos.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2693994a-d760-47f0-98be-b09b147183c1" width="60%" alt="Modelo Lógico">
+</div>
+
+## Aplicação Mobile
+
+A interface foi projetada com foco na experiência (UX) da equipe de Recursos Humanos, priorizando a facilidade de uso e a eficiência nas tarefas do dia a dia. O layout responsivo 
+permite acesso rápido às funcionalidades em dispositivos móveis, garantindo uma navegação fluida.<br>
+
+Temos um painel que permite a interação do usuário com os principais módulos do sistema. Podemos visualizar abaixo algumas das telas do aplicativo, onde temos o painel de controle com 
+as principais funcionalidades do aplicativo: Arquivos, Admissão, Demissão, Dashboard, Configuração e Colaboradores. O Painel de Admissões onde podemos acompanhar o andamento das contratações 
+e o painel de Colaboradores, que nos retorna os colaboradores ativos ou inativos da empresa e suas informações.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/33e283eb-e133-4d21-807c-77217ef51652" width="60%" alt="Interface">
+</div>
+
+## Principais Funcionalidades do App
 
 ### 1. Arquivos
 
@@ -133,15 +236,16 @@ Botões que levam o usuário para telas secundárias ou informações adicionais
 
 ## Tecnologias Utilizadas
 
-- **React-Native:** Para o desenvolvimento do aplicativo.
-- **Expo Snack:** Para prototipagem rápida.
-- **Expo Go:** Para realizar os testes em dispositivos móveis.
+- **React-Native**
+- **JavaScript**
+- **Expo (Snack e Go)**
 
-## Linguagem de Programação Utilizada
+OBS: A adoção do React Native representa uma escolha estratégica, pois permite o desenvolvimento multiplataforma com uma única base de código. Isso reduz significativamente o tempo de produção e manutenção, além de garantir consistência visual e funcional entre os sistemas operacionais Android e iOS. Essa abordagem também favorece a escalabilidade do projeto e a integração com bibliotecas 
+modernas melhorando a experiência do usuário.
 
-- JavaScript
+## Executando o Projeto
 
-## Executando no Expo Snack
+**1. Executando no Expo Snack**
 
 **Pré Requisito:**
 * O aplicativo **Expo Go** deve estar instalado no seu dispositivo móvel.
@@ -156,10 +260,11 @@ https://snack.expo.dev/@eduarda.araujo/rhtech
 
 3. Use o aplicativo Expo Go para escanear o QRCode exibido. O aplicativo será carregado automaticamente.
 
-## Executando Localmente
+**2. Executando Localmente**
 
 **Pré Requisito:**
 * **Node.js**
+* **Expo Go**
 
 **Instruções:**
 
