@@ -113,21 +113,21 @@ Trata-se das especificações de o que o sistema deve fazer.
 
 Trata-se das qualidades e restrições técnicas que o sistema deve cumprir.
 
-- Usabilidade: Interface simples e intuitiva, adequada ao uso por equipes de RH
-- Segurança: Acesso restrito apenas a usuários autenticados
-- Disponibilidade: O sistema deve estar acessível de forma contínua, sem interrupções frequentes
-- Desempenho: Consultas e geração de relatórios devem ocorrer com tempo de resposta rápido
-- Confiabilidade: O sistema deve garantir consistência dos dados e evitar duplicações
-- Escalabilidade: O sistema deve suportar o aumento no número de funcionários e documentos sem perda de desempenho
-- Compatibilidade: O sistema deve funcionar em dispositivos IOS e Android
-- Auditabilidade: Permitir rastreabilidade das ações (ex.: quem cadastrou, alterou ou removeu dados)
+- Usabilidade: Interface simples e intuitiva, adequada ao uso por equipes de RH.
+- Segurança: Acesso restrito apenas a usuários autenticados.
+- Disponibilidade: O sistema deve estar acessível de forma contínua, sem interrupções frequentes.
+- Desempenho: Consultas e geração de relatórios devem ocorrer com tempo de resposta rápido.
+- Confiabilidade: O sistema deve garantir consistência dos dados e evitar duplicações.
+- Escalabilidade: O sistema deve suportar o aumento no número de funcionários e documentos sem perda de desempenho.
+- Compatibilidade: O sistema deve funcionar em dispositivos IOS e Android.
+- Auditabilidade: Permitir rastreabilidade das ações (ex: quem cadastrou, alterou ou removeu dados).
 
 ## Banco de Dados
 
 O projeto utiliza um banco de dados relacional, implementado em **SQL**. O modelo lógico foi desenhado para garantir a integridade e a consistência dos dados, estruturando as entidades e seus relacionamentos.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/2693994a-d760-47f0-98be-b09b147183c1" width="60%" alt="Modelo Lógico">
+  <img src="https://github.com/user-attachments/assets/2693994a-d760-47f0-98be-b09b147183c1" width="80%" alt="Modelo Lógico">
 </div>
 
 ## Aplicação Mobile
